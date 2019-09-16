@@ -13,7 +13,7 @@ SCOPES = [
     'https://www.googleapis.com/auth/spreadsheets.readonly'
 ]
 
-CLIENT_SECRETS_FILENAME = 'client_secrets.json'
+CLIENT_SECRETS_FILENAME = 'credentials.json'
 CALENDAR_ID, SPREADSHEET_ID, RANGE_NAME = '', '', ''  # NOTE: specify specific values here or in config.json
 
 if not (CALENDAR_ID and SPREADSHEET_ID and RANGE_NAME):
